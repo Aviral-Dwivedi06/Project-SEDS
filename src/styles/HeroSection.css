@@ -1,0 +1,89 @@
+.hero-container {
+  position: relative;
+  width: 100%;
+  height: 85vh;
+  background: transparent;
+  overflow: hidden;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px 20px 10px 20px;
+  margin-bottom: 0;
+   font-size: 1.5rem;
+    font-weight: 500;
+  margin-top: 1rem;
+  line-height: 1.6;
+  color: #cccccc;
+}
+
+.typing-text {
+  font-size: 1.4rem;
+  color: #00bfff;
+  margin-top: 10px;
+  z-index: 2;
+}
+
+/* Starfield */
+.stars {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: transparent;
+  z-index: 1;
+}
+
+.star {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: white;
+  border-radius: 50%;
+  animation: twinkle 2s infinite ease-in-out alternate;
+  opacity: 0.8;
+}
+
+@keyframes twinkle {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.star-background {
+  position: relative;
+  background-color: black;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+.stars {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.star {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: white;
+  border-radius: 50%;
+  animation: twinkle 2s infinite ease-in-out alternate;
+}
+
+@keyframes twinkle {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+

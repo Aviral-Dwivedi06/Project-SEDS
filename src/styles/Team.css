@@ -1,0 +1,256 @@
+.team-container {
+  padding: 2rem;
+  color: white;
+  background-color: black;
+  min-height: 100vh;
+}
+
+.executive-board, .sub-teams {
+  margin-top: 3rem;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #00bfff;
+  margin-bottom: 1rem;
+}
+.eb-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  padding: 2rem 0;
+  justify-items: center; /* Center items in their cells */
+}
+
+
+.eb-card {
+  background-color: #111;
+  border-radius: 12px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 187, 255, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.eb-card:hover {
+  transform: translateY(-5px);
+}
+
+.eb-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+  object-fit: cover;
+}
+
+.eb-card h3 {
+  margin: 0.5rem 0 0.25rem;
+  font-size: 1.1rem;
+  color: #00bfff;
+}
+
+.eb-card p {
+  margin: 0.3rem 0;
+  font-size: 0.9rem;
+}
+.eb-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.team-section {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding-top: 2rem;
+}
+
+.team-card {
+  background-color: #111;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 187, 255, 0.1);
+}
+
+.team-card h3 {
+  margin-bottom: 1rem;
+  color: #00bfff;
+}
+
+.team-images {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.team-images img {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.team-card p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+.team-section {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 3rem 1rem;
+  background: linear-gradient(to bottom, #0b0c10, #0f1115);
+}
+
+.team-card {
+  background-color: #12141b;
+  border-top: 4px solid #00bfff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 191, 255, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 25px rgba(0, 191, 255, 0.2);
+}
+
+.team-card h3 {
+  color: #00bfff;
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.team-images {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.team-images img {
+  width: 100%;
+  max-width: 320px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 187, 255, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.team-images img:hover {
+  transform: scale(1.03);
+}
+
+.team-card p {
+  color: #ccc;
+  font-size: 1rem;
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.team-card p strong {
+  color: #00bfff;
+}
+.team-container {
+  position: relative;
+  z-index: 1; 
+}
+body {
+  background: linear-gradient(120deg, #0f0c29, #302b63, #24243e);
+  color: white;
+}
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.eb-card input,
+.eb-card textarea {
+  width: 100%;
+  margin: 0.4rem 0;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.07);
+  backdrop-filter: blur(3px);
+}
+
+.eb-card input::placeholder,
+.eb-card textarea::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.eb-card textarea {
+  resize: vertical;
+  min-height: 60px;
+}
+.team-controls {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.team-btn {
+  background-color: #1e1e2f;
+  color: #ffffff;
+  border: 2px solid #ffffff33;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.team-btn:hover {
+  background-color: #2a2a3d;
+  border-color: #ffffff66;
+}
+
+.reset-btn {
+  background-color: #912c2c;
+  border-color: #ff4d4d33;
+}
+
+.reset-btn:hover {
+  background-color: #b73838;
+  border-color: #ff4d4d88;
+}
+.team-container {
+  position: relative;
+  min-height: 100vh;
+  padding: 20px;
+  background-image: url('../assets/team-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.team-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6); /* optional overlay for readability */
+  z-index: -1;
+}
+
+
+
+
+
+
