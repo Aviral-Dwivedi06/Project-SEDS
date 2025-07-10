@@ -6,7 +6,12 @@ import './styles/Starfield.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-AOS.init();
+AOS.init({ duration: 1000, once: true });
+
+// If you're using Vite, this might help force animation on load:
+window.addEventListener('DOMContentLoaded', () => {
+  AOS.refresh();
+});
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(

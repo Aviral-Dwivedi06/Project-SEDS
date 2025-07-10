@@ -8,6 +8,15 @@ import Sham from '../assets/members/Sham.png';
 import Umang from '../assets/members/Umang.png';
 import Rahul from '../assets/members/Rahul.png';
 import Gautham from '../assets/members/Gautham.png';
+import artemisLeads from '../assets/members/misc/teams/artemis-leads.png';
+import artemisGroup from '../assets/members/misc/teams/artemis-group.png';
+import janusLead from '../assets/members/misc/teams/janus-lead.png';
+import janusGroup from '../assets/members/misc/teams/janus-group.png';
+import hyperionLeads from '../assets/members/misc/teams/hyperion-leads.png';
+import hyperionGroup from '../assets/members/misc/teams/hyperion-group.png';
+import archangelLeads from '../assets/members/misc/teams/archangel-leads.png';
+import archangelGroup from '../assets/members/misc/teams/archangel-group.png';
+
 
 const defaultExecutiveBoard = [
   {
@@ -154,8 +163,8 @@ const Team = () => {
           <div className="team-card fade-in">
             <h3>Team Artemis</h3>
             <div className="team-images">
-              <img src="/src/assets/members/misc/teams/artemis-leads.png" alt="Artemis Leads" />
-              <img src="/src/assets/members/misc/teams/artemis-group.png" alt="Artemis Group" />
+             <img src={artemisLeads} alt="Artemis Leads" />
+<img src={artemisGroup} alt="Artemis Group" />
             </div>
             <p>
               Team Artemis marked <strong>SEDS BPHC’s breakthrough</strong> at the Spaceport America Cup in 2021 — the <strong>first and only BITS Pilani campus</strong> to take part in the competition. Tasked with launching an <strong>8-foot, 28kg rocket</strong> to 10,000 feet using <strong>COTS solid rocket motors</strong>, the team showcased engineering brilliance. Today, Artemis continues to innovate in <strong>high-power rocketry</strong>, aiming for global recognition.
@@ -165,8 +174,8 @@ const Team = () => {
           <div className="team-card fade-in">
             <h3>Team Janus</h3>
             <div className="team-images">
-              <img src="/src/assets/members/misc/teams/janus-lead.png" alt="Janus Lead" />
-              <img src="/src/assets/members/misc/teams/janus-group.png" alt="Janus Group" />
+            <img src={janusLead} alt="Janus Lead" />
+<img src={janusGroup} alt="Janus Group" />
             </div>
             <p>
               Team Janus carries our vision to the global stage through the <strong>CanSat Competition</strong> — a challenge simulating real-world aerospace missions. In 2021, they developed <strong>auto-rotating payloads</strong> and reached the <strong>Critical Design Review (CDR)</strong> stage, despite pandemic hurdles. In 2022, they engineered a <strong>tethered payload</strong> with precise camera orientation. Janus is all about <strong>autonomy, innovation, and resilience</strong>.
@@ -176,8 +185,8 @@ const Team = () => {
           <div className="team-card fade-in">
             <h3>Team Hyperion</h3>
             <div className="team-images">
-              <img src="/src/assets/members/misc/teams/hyperion-leads.png" alt="Hyperion Leads" />
-              <img src="/src/assets/members/misc/teams/hyperion-group.png" alt="Hyperion Group" />
+             <img src={hyperionLeads} alt="Hyperion Leads" />
+<img src={hyperionGroup} alt="Hyperion Group" />
             </div>
             <p>
               Hyperion is building the future with <strong>CubeSats</strong> — compact satellites with massive potential. Their first satellite, <strong>NEMOlite</strong>, is a demonstration mission to validate <strong>ADCS and core subsystems</strong>. Their next mission, <strong>NEMO</strong>, aims to track <strong>microplastics in the Gulf of Mannar</strong>. Hyperion empowers science with small-scale space tech that delivers big results.
@@ -187,8 +196,8 @@ const Team = () => {
           <div className="team-card fade-in">
             <h3>Team Archangel</h3>
             <div className="team-images">
-              <img src="/src/assets/members/misc/teams/archangel-leads.png" alt="Archangel Leads" />
-              <img src="/src/assets/members/misc/teams/archangel-group.png" alt="Archangel Group" />
+              <img src={archangelLeads} alt="Archangel Leads" />
+<img src={archangelGroup} alt="Archangel Group" />
             </div>
             <p>
               Archangel is the <strong>R&D division</strong> of SEDS BPHC — where big ideas take their first breath. Current work includes <strong>Thrust Vector Control (TVC)</strong> systems for dynamic flight maneuvering, and the design and testing of <strong>E, I, G, and K-class solid rocket motors</strong>. Next: conquering <strong>M-class and hybrid propulsion</strong>. Archangel builds what others only imagine.
